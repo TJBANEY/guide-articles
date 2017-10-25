@@ -1,0 +1,8 @@
+Python supports the use of anonymous functions, also known as 'Lambda Functions'. It is often used
+with functions like filter(), map() and reduce().
+
+def lambda_add(y):
+    return lambda x: x + y
+    
+>>> lambda(5)(10)
+15
